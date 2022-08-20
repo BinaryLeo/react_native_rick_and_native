@@ -8,6 +8,7 @@
   ![GitHub last commit](https://img.shields.io/github/last-commit/BinaryLeo/rick_and_native?style=flat-square)
   ![GitHub top language](https://img.shields.io/github/languages/top/BinaryLeo/rick_and_native?style=flat-square)
   
-  ![image](https://user-images.githubusercontent.com/72607039/185730143-28cf73de-f573-444f-8b01-4794058cc638.png)
+ ![Group 35](https://user-images.githubusercontent.com/72607039/185759575-1c4a7463-4236-4fad-852e-c609d86e3d70.png)
+
 
 </div>
