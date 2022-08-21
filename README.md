@@ -10,6 +10,9 @@
   ![GitHub top language](https://img.shields.io/github/languages/top/BinaryLeo/rick_and_native?style=flat-square)
   
  ![Group 35](https://user-images.githubusercontent.com/72607039/185759575-1c4a7463-4236-4fad-852e-c609d86e3d70.png)
+ 
+ 
+ ![Animação](https://user-images.githubusercontent.com/72607039/185772407-114103f5-975b-4d71-8103-a078e2de33a0.gif)
 
-
+  
 </div>
