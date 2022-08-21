@@ -6,7 +6,7 @@ export const Container = styled.View`
 `;
 export const Header = styled.View`
   width: 100%;
-  margin-top: 20px;
+  margin: 20px 0 15px 0;
   height: ${RFPercentage(20)}px;
   flex-direction: column;
   align-items: center;
