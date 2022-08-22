@@ -4,7 +4,8 @@ import {
   Image,
   FlatList,
   Modal,
-  View
+  View,
+  StyleSheet,
 } from "react-native";
 import { Api } from "../../services/Api";
 import {
@@ -15,9 +16,8 @@ import {
   ImageContainer,
   Content,
   Label,
-  ModalBox,
+  ModalLabel,
   CloseBtn,
-  CloseLabel
 } from "./styles";
 import { Feather } from "@expo/vector-icons";
 interface characterProps {
@@ -84,7 +84,7 @@ export function Characters({ onLayout }: Props) {
               <CardBox>
                 <ImageContainer>
                   <Image
-                    style={{ height: 120, width: 120 , borderRadius:60 }}
+                    style={{ height: 120, width: 120, borderRadius: 60 }}
                     source={{ uri: item.image }}
                   />
                 </ImageContainer>
@@ -103,31 +103,51 @@ export function Characters({ onLayout }: Props) {
           visible={isOpen}
           onRequestClose={() => setIsOpen(false)}
         >
-          <ModalBox>
-          <CloseBtn>
-          <Feather name="x-square" size={36} color="black"
-          onPress={() => setIsOpen(false)}
-          />
-          </CloseBtn>
-       
-         
-         
-            <Image
-              style={{
-                height: 300,
-                width: 300,
-                marginBottom: 20,
-                borderRadius: 200,
-              }}
-              source={{ uri: characterDetails?.image }}
-            />
-            <Label>Name: {characterDetails?.name}</Label>
-            <Label>Gender: {characterDetails?.gender}</Label>
-            <Label>Specie: {characterDetails?.species}</Label>
-            
-          </ModalBox>
+          <View style={styles.modalBackground}>
+            <View style={styles.modalContainer}>
+              <CloseBtn>
+                <Feather
+                  name="x-square"
+                  size={36}
+                  color="black"
+                  onPress={() => setIsOpen(false)}
+                />
+              </CloseBtn>
+
+              <Image
+                style={{
+                  height: 200,
+                  width: 200,
+                  marginBottom: 20,
+                  borderRadius: 150,
+                }}
+                source={{ uri: characterDetails?.image }}
+              />
+              <ModalLabel>Name: {characterDetails?.name}</ModalLabel>
+              <ModalLabel>Gender: {characterDetails?.gender}</ModalLabel>
+              <ModalLabel>Specie: {characterDetails?.species}</ModalLabel>
+            </View>
+          </View>
         </Modal>
       </View>
     </Container>
   );
 }
+const styles = StyleSheet.create({
+  modalBackground: {
+    flex: 1,
+    backgroundColor: "rgba(0, 0, 0, 0.8)",
+    justifyContent: "center",
+    alignItems: "center",
+  },
+  modalContainer: {
+    width: "80%",
+    justifyContent: "center",
+    alignItems: "center",
+    backgroundColor: "#00b6cd",
+    paddingHorizontal: 20,
+    paddingVertical: 20,
+    borderRadius: 20,
+    elevation: 20,
+  },
+});
