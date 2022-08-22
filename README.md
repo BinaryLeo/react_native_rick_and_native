@@ -12,7 +12,8 @@
  ![Group 35](https://user-images.githubusercontent.com/72607039/185759575-1c4a7463-4236-4fad-852e-c609d86e3d70.png)
  
  
- ![Animação](https://user-images.githubusercontent.com/72607039/185772407-114103f5-975b-4d71-8103-a078e2de33a0.gif)
+![Animação2](https://user-images.githubusercontent.com/72607039/185828342-d145649f-396a-4ca1-b5fe-0b2ee645a894.gif)
+
 
   
 </div>
