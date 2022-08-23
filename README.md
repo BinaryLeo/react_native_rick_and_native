@@ -9,11 +9,23 @@
   ![GitHub last commit](https://img.shields.io/github/last-commit/BinaryLeo/rick_and_native?style=flat-square)
   ![GitHub top language](https://img.shields.io/github/languages/top/BinaryLeo/rick_and_native?style=flat-square)
   
+
+
  ![Group 35](https://user-images.githubusercontent.com/72607039/185759575-1c4a7463-4236-4fad-852e-c609d86e3d70.png)
  
  
 ![Animação2](https://user-images.githubusercontent.com/72607039/185828342-d145649f-396a-4ca1-b5fe-0b2ee645a894.gif)
 
 
+
   
 </div>
+
+## ✅ Technologies
+- ``Expo bare workflow``
+- ``React Native``
+- ``Typescript``
+- ``Vector Icons``  
+- ``Axios``  
+- ``responsive font-size`` 
+- ``Styled Components``
