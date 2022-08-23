@@ -102,6 +102,7 @@ export function Characters({ onLayout }: Props) {
           animationType="slide"
           visible={isOpen}
           onRequestClose={() => setIsOpen(false)}
+          transparent={true}
         >
           <View style={styles.modalBackground}>
             <View style={styles.modalContainer}>
